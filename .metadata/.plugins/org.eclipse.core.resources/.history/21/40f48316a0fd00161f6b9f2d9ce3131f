@@ -1,0 +1,30 @@
+package com.zw._29;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+	public int divide(int dividend,int divisor){
+		long result =0;
+		long rest = 0;
+		long ldividend = Math.abs((long) dividend);
+		long ldivisor = Math.abs((long) dividend);
+		List<Long> list = new ArrayList<Long>();
+		list.add(ldivisor);
+		result = 1;
+		while(ldividend>list.get(list.size()-1)){
+			
+			list.add(list.get(list.size()-1)+list.get(list.size()-1));
+			result += result;
+			rest = ldividend - list.get(list.size()-1)-list.get(list.size()-1);
+		}
+		for(int i=0;i<list.size();i++){
+			if(list.get(i) > rest){
+				return (int)result +i - 1;
+			}
+		}
+		return (int)result;
+		
+		
+	}
+}

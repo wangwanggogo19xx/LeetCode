@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;28_implement_strStr()&apos; to &apos;28_implement_strStr&apos;&#x0A;- Original element: &apos;28_implement_strStr()&apos;&#x0A;- Renamed element: &apos;28_implement_strStr()&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;28_implement_strStr()&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=28_implement_strStr\()" name="28_implement_strStr" references="true" stamp="1488265700918" version="1.0"/>
+</session>
