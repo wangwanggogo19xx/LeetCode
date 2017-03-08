@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.zw._28&apos; to &apos;com.zw.leetCode_28&apos;&#x0A;- Original project: &apos;28_implement_strStr&apos;&#x0A;- Original element: &apos;28_implement_strStr/src/com.zw._28&apos;&#x0A;- Renamed element: &apos;28_implement_strStr/src/com.zw.leetCode_28&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.zw._28&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.zw._28" name="com.zw.leetCode_28" qualified="false" references="true" stamp="1488346969414" textual="false" version="1.0"/>
+</session>

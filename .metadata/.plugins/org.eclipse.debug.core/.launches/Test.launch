@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/29_divide_two_integers/src/com/zw/_29/Test.java"/>
+<listEntry value="/29_divide_two_integers/src/com/zw/leetCode_29/Test.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.zw._29.Test"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.zw.leetCode_29.Test"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="29_divide_two_integers"/>
 </launchConfiguration>

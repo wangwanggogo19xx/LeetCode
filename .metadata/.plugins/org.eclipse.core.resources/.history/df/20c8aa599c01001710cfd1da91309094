@@ -1,0 +1,37 @@
+package com.zw.leetCode_110;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Solution {
+	public static class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+	public static void main(String[] args) {
+		
+	}
+	public boolean isBalanced(TreeNode root) {
+        List<Integer>  list  = new ArrayList<>();
+        Boolean isB = true;
+        height(root,0,isB);
+        return isB;
+    }
+    private int height(TreeNode node,int height,Boolean isB){
+        
+        if(node == null) return height;
+        else{
+            int left = height(node.left,height+1,isB);
+            int right = height(node.right,height+1,isB);
+            if(Math.abs(left-height)>1){
+                isB = false;
+            }
+            return left;
+        }
+    }
+}

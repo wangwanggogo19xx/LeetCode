@@ -1,0 +1,46 @@
+package com.zw.leetCode_107;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+
+	public class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
+	public List<List<Integer>> levelOrderBottom(TreeNode root) {
+		List<List<Integer>> result = new ArrayList<>();
+		List<TreeNode> list = new ArrayList<>();
+		List<Integer> l = new ArrayList<>();
+		if (root != null) {
+			list.add(root);
+			l.add(root.val);
+		}
+
+		while (list.size() > 0) {
+			result.add(0, l);
+			l.clear();
+			int length = list.size();
+			for (int i = 0; i < length; i++) {
+				TreeNode node = list.remove(0);
+				l.add(node.val);
+				if (node.left != null) {
+					list.add(node.left);
+				}
+				if (node.right != null) {
+					list.add(node.right);
+				}
+
+			}
+		}
+		return result;
+
+	}
+
+}

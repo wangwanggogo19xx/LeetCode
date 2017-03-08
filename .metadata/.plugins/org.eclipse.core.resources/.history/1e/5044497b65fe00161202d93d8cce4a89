@@ -1,0 +1,45 @@
+package com.zw.leetCode_38;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
+    public String countAndSay(int n) {
+    	String string = "1";
+        for(int i=1;i<n;i++){
+        	String temp =string;
+        	string="";
+        	int count = 0;
+        	char startChar = temp.charAt(0);
+        	for(int j = 0;j<temp.length();j++){
+        		while(j<temp.length() && startChar == temp.charAt(j)  ){
+        			
+        			count++;
+        			j++;
+        		}
+        		if(j >= temp.length()){
+        			string+=String.valueOf(count)+String.valueOf(temp.charAt(j-1));
+        			break;
+        		}else{
+        			string+=String.valueOf(count)+String.valueOf(temp.charAt(j));
+        		}
+        		
+        		count = 1;
+        		startChar = temp.charAt(j);
+        	}
+        }
+        return string;
+    }
+    public String newString(String string){
+    	if(string.length() == 0) return "";
+    	else if(string.length() == 1) return "1"+string;
+    	else {
+    		for(int i=1;i<string.length();i++){
+    			if(string.charAt(i) != string.charAt(i-1)){
+    				return String.valueOf(i)+String.valueOf(string.charAt(i-1)) + newString(string.substring(i));
+    			}
+    		}
+    	}
+    	return "";
+    }
+}

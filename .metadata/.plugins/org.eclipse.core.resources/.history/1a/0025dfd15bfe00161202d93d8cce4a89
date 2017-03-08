@@ -1,0 +1,28 @@
+package com.zw.leetCode_38;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
+    public String countAndSay(int n) {
+    	String string = "1";
+    	Map<String, String> map = new HashMap<>();
+    	map.put("1", "11");
+    	map.put("11","21");
+    	map.put("2", "12");
+        for(int i=1;i<n;i++){
+        	String temp =string;
+        	string="";
+        	int count = 1;
+        	for(int j = 1;j<temp.length() || j==1;j++){
+        		while(temp.charAt(j-1) == temp.charAt(j)){
+        			count++;
+        			j++;
+        		}
+        		string+=String.valueOf(count)+String.valueOf(temp.charAt(j));
+        		count = 1;
+        	}
+        }
+        return string;
+    }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.zw.leetCode_67.Soluition&apos; to &apos;Test&apos;&#x0A;- Original project: &apos;67_add_bianry&apos;&#x0A;- Original element: &apos;com.zw.leetCode_67.Soluition&apos;&#x0A;- Renamed element: &apos;com.zw.leetCode_67.Test&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Soluition&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.zw.leetCode_67{Soluition.java[Soluition" matchStrategy="1" name="Test" qualified="false" references="true" similarDeclarations="false" stamp="1488452849199" textual="false" version="1.0"/>
+</session>

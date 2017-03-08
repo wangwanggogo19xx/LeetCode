@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/107_binarytree_level_order_traversal_II/src/com/zw/leetCode_107/Solution.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.zw.leetCode_107.Solution"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="107_binarytree_level_order_traversal_II"/>
+</launchConfiguration>

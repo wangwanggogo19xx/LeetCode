@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.zw._29&apos; to &apos;com.zw.leetCode_29&apos;&#x0A;- Original project: &apos;29_divide_two_integers&apos;&#x0A;- Original element: &apos;29_divide_two_integers/src/com.zw._29&apos;&#x0A;- Renamed element: &apos;29_divide_two_integers/src/com.zw.leetCode_29&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.zw._29&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.zw._29" name="com.zw.leetCode_29" qualified="false" references="true" stamp="1488346939379" textual="false" version="1.0"/>
+</session>

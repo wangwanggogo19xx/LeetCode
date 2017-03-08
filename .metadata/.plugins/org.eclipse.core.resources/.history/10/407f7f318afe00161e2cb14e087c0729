@@ -1,0 +1,9 @@
+package com.zw.leetCode_67;
+
+public class Solution {
+    public String addBinary(String a, String b) {
+        int n1 = Integer.valueOf(a, 2);
+        int n2 = Integer.valueOf(b, 2);
+        return Integer.toBinaryString(n1+n2).toString();
+    }
+}
